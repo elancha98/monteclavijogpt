@@ -1,0 +1,31 @@
+GRUPO SCOUT 109 "MONTE CLAVIJO" - SITIO WEB
+=============================================
+
+Sitio estatico (HTML + CSS + un poco de JS). Sube la carpeta tal cual a tu hosting.
+Las fuentes estan incluidas en assets/fonts (no se usa Google Fonts).
+
+PAGINAS
+  index.html               Inicio
+  nosotros.html            Quienes somos: historia, miembros, ubicacion, rasgos
+  ramas.html               Lobatos, Tropa, Escultas, Clan
+  escultismo.html          Que son los scouts, pilares, scouts famosos
+  proyecto-educativo.html  Proyecto educativo
+  unete.html               Union al grupo: edades, FAQ y formulario
+
+QUE CAMBIAR (busca y reemplaza en todos los archivos)
+  1. info@tudominio.org          -> el correo real (aparece en los .html y en assets/js/site.js)
+  2. /miembros/                  -> enlace al espacio de miembros (actas, calendarios, guias)
+  3. /secretaria-economia/       -> enlace al area privada de secretaria y economia
+  4. /documentos-actividades/    -> enlace a documentos internos y actividades
+  Los enlaces 2-4 estan en el menu "Miembros", en el pie de pagina y en la portada.
+
+FOTOS (opcionales)
+  Copia tus imagenes a assets/img/ con estos nombres y se mostraran solas:
+    lobatos.png, tropa.jpg, escultas.jpg, rovers.jpg
+    people/neil.jpg, venus.jpg, taylor.jpg, emilio.jpg, sofia.jpg, reyes.jpg
+  Si no existen, se ve un dibujo de ondas (o las iniciales) en su lugar.
+
+FORMULARIO DE "UNETE"
+  No necesita servidor: al enviar, abre el programa de correo con el mensaje preparado.
+  Si prefieres un envio real, cambia el <form id="join-form"> por tu propio sistema.
+  Como recoge datos personales, necesitaras enlazar tu politica de privacidad.
